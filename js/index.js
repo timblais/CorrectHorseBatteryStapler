@@ -107,7 +107,7 @@ let finalString = finalArray.concat(wordArray).join('')
 
 if (capital == true){
     finalString[0].toUpperCase()
-}
+} // currently not working, need to revisit.
 
 document.querySelector('.result').innerText = finalString
 
